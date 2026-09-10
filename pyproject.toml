@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pokersoft"
+version = "0.1.0"
+description = "Texas Hold'em decision assistant: GTO-leaning math baseline plus exploitative pro-style adjustments, with an optional real-time screen-capture overlay for home games."
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["pokersoft*"]
